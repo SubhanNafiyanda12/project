@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FGS Travelling</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body{
+        font-family: Arial, sans-serif;
+        background-color:#f4f4f4;
+    }
+
+    header {
+        background: url(R.jpg) center/cover no-repeat;
+        color: white;
+        text-align: center;
+        padding: 4rem 0;
+        position: relative;
+    }
+
+    header: :before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        bacground: rgba(0, 0, 0, .5);
+
+    }
+    header h1 {
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+    }
+    nav {
+        background-color: rgb(126, 12, 73);
+    }
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .logo {
+        text-decoration: none;
+        color:white;
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+    .logo a {
+        text-decoration: none;
+        color:white;
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+    .menu {
+        list-style-type: none;
+        display: flex;
+    }
+    .menu li {
+        margin: 0 1rem;
+    }
+    .menu li a {
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        transition: color 0.3s ease;
+    }
+    .menu li a:hover {
+        color:#ffcc00;
+    }
+    main {
+        max-width: 1200px;
+        margin: 2rem auto;
+        padding: 1rem;
+        background-color: white;
+        box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+    }
+    .home {
+         margin-bottom: 2rem;
+         display: flex;
+         flex-wrap: wrap;
+         justify-content: center;
+         align-items: flex-start;
+         text-align: center;
+    }
+    nav {
+        background-color: rgb(126, 12, 73);
+    }
+    .Home h2 {
+        font-size: 24px;
+        margin-bottom: 1rem;
+        width: 100%;
+
+    }
+    .Home h3 {
+        font-size: 20px;
+        margin-bottom: 2rem;
+        width: 100%;
+    }
+
+    nav ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    nav ul li{
+        display: inline;
+        margin: 0 1rem;
+    }
+    section {
+        padding: 2rem;
+        text-align: center;
+    }
+
+    footer {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 1rem 0;
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    form label {
+        margin: 0.5rem 0;
+    }
+
+    form input, form textarea {
+        width: 80%;
+        padding: 0.5rem;
+        margin-bottom: 1rem;
+    }
+
+    form button {
+        padding: 0.5rem 2 rem;
+        background-color: #333;
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+</style>
+    <header>
+        <h1>FGS Travelling</h1>
+    </header>    
+        <nav>
+            <div class="navbar">
+                <div class="logo">
+                    <a href="#">FGS Travelling</a>
+                </div>
+                <ul class="menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        </nav>
+        <main>
+        <nav>
+            <section class="Home">
+                <h2>Selamat Datang Di FGS Travelling</h2>
+            
+                <h3>Mengapa Anda Harus Memilih FGS Travelling?</h3>
+                <div class="Home-item">
+                    <h4>Halo semuanya, Kami Menyediakan Berbagai Paket Wisata,Hotel,Travel, dan Berbagai Macam Lainya
+                Kenyamanan dan Kesenangan Anda Lebih Utama, Anda Senang Kami Lebih Senang</h4>
+                </div>
+            </section>
+        </main>
+</body>
+</html>
